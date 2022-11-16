@@ -2118,33 +2118,36 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <wire x1="66.04" y1="20.32" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="V_49E" class="0">
 <segment>
 <pinref part="49E_PIN" gate="-3" pin="S"/>
 <wire x1="45.72" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="55.88" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$0" pin="CH3"/>
 <wire x1="101.6" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<label x="81.28" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="V_LM35" class="0">
 <segment>
 <pinref part="LM35_PIN" gate="-2" pin="S"/>
 <wire x1="48.26" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="38.1" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$0" pin="CH0"/>
 <wire x1="60.96" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
+<label x="81.28" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="1N+" class="0">
 <segment>
 <pinref part="SCT013_20A_PIN" gate="-1" pin="S"/>
 <pinref part="U2" gate="G$1" pin="1IN+"/>
 <wire x1="-15.24" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="22.86" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
+<label x="10.16" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="1N-" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="1IN-"/>
 <wire x1="25.4" y1="12.7" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
@@ -2157,18 +2160,20 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <wire x1="101.6" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="63.5" x2="73.66" y2="15.24" width="0.1524" layer="91"/>
 <junction x="73.66" y="15.24"/>
+<label x="20.32" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="2N+" class="0">
 <segment>
 <pinref part="SCT013_100A_PIN" gate="-1" pin="S"/>
 <wire x1="-15.24" y1="2.54" x2="22.86" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="2.54" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="2IN+"/>
 <wire x1="22.86" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
+<label x="7.62" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="2N-" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="2IN-"/>
 <wire x1="25.4" y1="7.62" x2="25.4" y2="-12.7" width="0.1524" layer="91"/>
@@ -2183,6 +2188,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <wire x1="78.74" y1="45.72" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="12.7" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
 <junction x="66.04" y="12.7"/>
+<label x="22.86" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OUT5+" class="0">
@@ -2218,13 +2224,14 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <junction x="15.24" y="147.32"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="SW12V" class="0">
 <segment>
 <pinref part="VCC" gate="-1" pin="KL"/>
 <wire x1="27.94" y1="149.86" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="149.86" x2="20.32" y2="127" width="0.1524" layer="91"/>
 <pinref part="12V" gate="-1" pin="S"/>
 <wire x1="20.32" y1="127" x2="30.48" y2="127" width="0.1524" layer="91"/>
+<label x="20.32" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
