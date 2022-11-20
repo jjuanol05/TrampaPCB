@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -216,11 +216,11 @@ Created by Upverter.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="pinhead" urn="urn:adsk.eagle:library:325">
+<library name="pinhead">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="2X20" urn="urn:adsk.eagle:footprint:22315/1" library_version="4">
+<package name="2X20">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-25.4" y1="-1.905" x2="-24.765" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-24.765" y1="-2.54" x2="-23.495" y2="-2.54" width="0.1524" layer="21"/>
@@ -446,7 +446,7 @@ Created by Upverter.com</description>
 <rectangle x1="23.876" y1="1.016" x2="24.384" y2="1.524" layer="51"/>
 <rectangle x1="23.876" y1="-1.524" x2="24.384" y2="-1.016" layer="51"/>
 </package>
-<package name="2X20/90" urn="urn:adsk.eagle:footprint:22316/1" library_version="4">
+<package name="2X20/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-25.4" y1="-1.905" x2="-22.86" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-22.86" y1="-1.905" x2="-22.86" y2="0.635" width="0.1524" layer="21"/>
@@ -652,7 +652,7 @@ Created by Upverter.com</description>
 <rectangle x1="23.749" y1="-5.461" x2="24.511" y2="-4.699" layer="21"/>
 <rectangle x1="23.749" y1="-4.699" x2="24.511" y2="-2.921" layer="51"/>
 </package>
-<package name="2X02" urn="urn:adsk.eagle:footprint:22337/1" library_version="4">
+<package name="2X02">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-2.54" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
@@ -680,7 +680,7 @@ Created by Upverter.com</description>
 <rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
 <rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
 </package>
-<package name="2X02/90" urn="urn:adsk.eagle:footprint:22338/1" library_version="4">
+<package name="2X02/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
@@ -707,34 +707,8 @@ Created by Upverter.com</description>
 <rectangle x1="0.889" y1="-5.461" x2="1.651" y2="-4.699" layer="21"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="2X20" urn="urn:adsk.eagle:package:22443/2" type="model" library_version="4">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="2X20"/>
-</packageinstances>
-</package3d>
-<package3d name="2X20/90" urn="urn:adsk.eagle:package:22440/2" type="model" library_version="4">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="2X20/90"/>
-</packageinstances>
-</package3d>
-<package3d name="2X02" urn="urn:adsk.eagle:package:22455/2" type="model" library_version="4">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="2X02"/>
-</packageinstances>
-</package3d>
-<package3d name="2X02/90" urn="urn:adsk.eagle:package:22456/2" type="model" library_version="4">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="2X02/90"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="PINH2X20" urn="urn:adsk.eagle:symbol:22314/1" library_version="4">
+<symbol name="PINH2X20">
 <wire x1="-6.35" y1="-27.94" x2="8.89" y2="-27.94" width="0.4064" layer="94"/>
 <wire x1="8.89" y1="-27.94" x2="8.89" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="8.89" y1="25.4" x2="-6.35" y2="25.4" width="0.4064" layer="94"/>
@@ -782,7 +756,7 @@ Created by Upverter.com</description>
 <pin name="39" x="-2.54" y="-25.4" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="40" x="5.08" y="-25.4" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
-<symbol name="PINH2X2" urn="urn:adsk.eagle:symbol:22336/1" library_version="4">
+<symbol name="PINH2X2">
 <wire x1="-8.89" y1="-2.54" x2="6.35" y2="-2.54" width="0.4064" layer="94"/>
 <wire x1="6.35" y1="-2.54" x2="6.35" y2="5.08" width="0.4064" layer="94"/>
 <wire x1="6.35" y1="5.08" x2="-8.89" y2="5.08" width="0.4064" layer="94"/>
@@ -796,7 +770,7 @@ Created by Upverter.com</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHD-2X20" urn="urn:adsk.eagle:component:22518/4" prefix="JP" uservalue="yes" library_version="4">
+<deviceset name="PINHD-2X20" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINH2X20" x="0" y="0"/>
@@ -845,9 +819,6 @@ Created by Upverter.com</description>
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22443/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="12" constant="no"/>
@@ -897,9 +868,6 @@ Created by Upverter.com</description>
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22440/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -908,7 +876,7 @@ Created by Upverter.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-2X2" urn="urn:adsk.eagle:component:22526/4" prefix="JP" uservalue="yes" library_version="4">
+<deviceset name="PINHD-2X2" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINH2X2" x="0" y="0"/>
@@ -921,9 +889,6 @@ Created by Upverter.com</description>
 <connect gate="A" pin="3" pad="3"/>
 <connect gate="A" pin="4" pad="4"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22455/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -937,9 +902,6 @@ Created by Upverter.com</description>
 <connect gate="A" pin="3" pad="3"/>
 <connect gate="A" pin="4" pad="4"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22456/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -950,7 +912,7 @@ Created by Upverter.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-ptr500" urn="urn:adsk.eagle:library:181">
+<library name="con-ptr500">
 <description>&lt;b&gt;PTR Connectors&lt;/b&gt;&lt;p&gt;
 Aug. 2004 / PTR Meßtechnik:&lt;br&gt;
 Die Bezeichnung der Serie AK505 wurde geändert.&lt;br&gt;
@@ -1003,7 +965,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="AK500/2-H" urn="urn:adsk.eagle:footprint:9865/1" library_version="3">
+<package name="AK500/2-H">
 <description>&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
 Aug. 2004 / PTR Meßtechnik:&lt;br&gt;
 Die Bezeichnung der Serie AK505 wurde geändert.&lt;br&gt;
@@ -1095,24 +1057,13 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <rectangle x1="1.3716" y1="-2.667" x2="3.6576" y2="-1.524" layer="21"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="AK500/2-H" urn="urn:adsk.eagle:package:9901/1" type="box" library_version="3">
-<description>CONNECTOR
-Aug. 2004 / PTR Meßtechnik:
-Die Bezeichnung der Serie AK505 wurde geändert.
-Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
-<packageinstances>
-<packageinstance name="AK500/2-H"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="KL" urn="urn:adsk.eagle:symbol:9788/2" library_version="3">
+<symbol name="KL">
 <circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
 <text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
 <pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="KLV" urn="urn:adsk.eagle:symbol:9842/1" library_version="3">
+<symbol name="KLV">
 <circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
 <text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
 <text x="-3.81" y="-3.683" size="1.778" layer="96">&gt;VALUE</text>
@@ -1120,7 +1071,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AK500/2-H" urn="urn:adsk.eagle:component:9938/3" prefix="X" uservalue="yes" library_version="3">
+<deviceset name="AK500/2-H" prefix="X" uservalue="yes">
 <description>&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
 Aug. 2004 / PTR Meßtechnik:&lt;br&gt;
 Die Bezeichnung der Serie AK505 wurde geändert.&lt;br&gt;
@@ -1135,9 +1086,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <connect gate="-1" pin="KL" pad="1"/>
 <connect gate="-2" pin="KL" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9901/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="" constant="no"/>
@@ -1152,11 +1100,11 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-molex" urn="urn:adsk.eagle:library:165">
+<library name="con-molex">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="22-23-2031" urn="urn:adsk.eagle:footprint:8078260/1" library_version="5">
+<package name="22-23-2031">
 <description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 3 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232031_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.254" layer="21"/>
 <wire x1="3.81" y1="3.175" x2="3.81" y2="1.27" width="0.254" layer="21"/>
@@ -1171,7 +1119,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <text x="-3.81" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="22-23-2021" urn="urn:adsk.eagle:footprint:8078259/1" library_version="5">
+<package name="22-23-2021">
 <description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232021_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.254" layer="21"/>
 <wire x1="2.54" y1="3.175" x2="2.54" y2="1.27" width="0.254" layer="21"/>
@@ -1185,7 +1133,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <text x="-2.54" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="22-23-2041" urn="urn:adsk.eagle:footprint:8078261/1" library_version="5">
+<package name="22-23-2041">
 <description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232041_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
 <wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
@@ -1202,41 +1150,21 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
-<packages3d>
-<package3d name="22-23-2031" urn="urn:adsk.eagle:package:8078634/1" type="box" library_version="5">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 3 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232031_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<packageinstances>
-<packageinstance name="22-23-2031"/>
-</packageinstances>
-</package3d>
-<package3d name="22-23-2021" urn="urn:adsk.eagle:package:8078633/1" type="box" library_version="5">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232021_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<packageinstances>
-<packageinstance name="22-23-2021"/>
-</packageinstances>
-</package3d>
-<package3d name="22-23-2041" urn="urn:adsk.eagle:package:8078635/1" type="box" library_version="5">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232041_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<packageinstances>
-<packageinstance name="22-23-2041"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="MV" urn="urn:adsk.eagle:symbol:6783/2" library_version="5">
+<symbol name="MV">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
-<symbol name="M" urn="urn:adsk.eagle:symbol:6785/2" library_version="5">
+<symbol name="M">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="22-23-2031" urn="urn:adsk.eagle:component:8078937/3" prefix="X" library_version="5">
+<deviceset name="22-23-2031" prefix="X">
 <description>.100" (2.54mm) Center Header - 3 Pin</description>
 <gates>
 <gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
@@ -1250,9 +1178,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <connect gate="-2" pin="S" pad="2"/>
 <connect gate="-3" pin="S" pad="3"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8078634/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="MOLEX" constant="no"/>
@@ -1265,7 +1190,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="22-23-2021" urn="urn:adsk.eagle:component:8078938/3" prefix="X" library_version="5">
+<deviceset name="22-23-2021" prefix="X">
 <description>.100" (2.54mm) Center Header - 2 Pin</description>
 <gates>
 <gate name="-1" symbol="MV" x="0" y="0" addlevel="always" swaplevel="1"/>
@@ -1277,9 +1202,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <connect gate="-1" pin="S" pad="1"/>
 <connect gate="-2" pin="S" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8078633/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="MOLEX" constant="no"/>
@@ -1292,7 +1214,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="22-23-2041" urn="urn:adsk.eagle:component:8078936/3" prefix="X" library_version="5">
+<deviceset name="22-23-2041" prefix="X">
 <description>.100" (2.54mm) Center Header - 4 Pin</description>
 <gates>
 <gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
@@ -1308,9 +1230,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <connect gate="-3" pin="S" pad="3"/>
 <connect gate="-4" pin="S" pad="4"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8078635/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MF" value="MOLEX" constant="no"/>
@@ -1515,43 +1434,28 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <class number="0" name="Raspberry gpio" width="0.508" drill="0.254">
 <clearance class="0" value="0.254"/>
 </class>
-<class number="1" name="VCC " width="0" drill="0">
+<class number="1" name="VCC" width="1.016" drill="0.254">
+<clearance class="1" value="0.254"/>
 </class>
 </classes>
-<groups>
-<schematic_group name="BMP180"/>
-<schematic_group name="DHT11"/>
-<schematic_group name="49E"/>
-<schematic_group name="LM35"/>
-<schematic_group name="SCT013_20A"/>
-<schematic_group name="SCT013_100A"/>
-<schematic_group name="VCC_12V"/>
-<schematic_group name="VCC_RB"/>
-<schematic_group name="REGULADOR_5V"/>
-<schematic_group name="SW_12V"/>
-<schematic_group name="GPIO_RASPBERRY"/>
-<schematic_group name="SCR_2"/>
-<schematic_group name="SCR_1"/>
-<schematic_group name="STEP_MOTOR"/>
-</groups>
 <parts>
 <part name="U1" library="P" deviceset="MICROCHIP_MCP3008-I-P" device="MICROCHIP_MCP3008-I-P_0_0"/>
-<part name="VCC" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/2-H" device="" package3d_urn="urn:adsk.eagle:package:9901/1"/>
-<part name="DHT11_PIN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device="" package3d_urn="urn:adsk.eagle:package:8078634/1"/>
-<part name="SCT013_20A_PIN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
-<part name="SCR40_1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
-<part name="BMP_PIN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device="" package3d_urn="urn:adsk.eagle:package:8078635/1"/>
-<part name="LM35_PIN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device="" package3d_urn="urn:adsk.eagle:package:8078634/1"/>
-<part name="RASPBERRY" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X20" device="" package3d_urn="urn:adsk.eagle:package:22443/2"/>
+<part name="VCC" library="con-ptr500" deviceset="AK500/2-H" device="" value="12"/>
+<part name="DHT11_PIN" library="con-molex" deviceset="22-23-2031" device=""/>
+<part name="SCT013_20A_PIN" library="con-molex" deviceset="22-23-2021" device=""/>
+<part name="SCR40_1" library="con-molex" deviceset="22-23-2021" device=""/>
+<part name="BMP_PIN" library="con-molex" deviceset="22-23-2041" device=""/>
+<part name="LM35_PIN" library="con-molex" deviceset="22-23-2031" device=""/>
+<part name="RASPBERRY" library="pinhead" deviceset="PINHD-2X20" device=""/>
 <part name="A4988" library="A4988_STEPPER_MOTOR_DRIVER_CARRIER" deviceset="A4988_STEPPER_MOTOR_DRIVER_CARRIER" device=""/>
-<part name="M" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device="" package3d_urn="urn:adsk.eagle:package:8078635/1"/>
-<part name="49E_PIN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2031" device="" package3d_urn="urn:adsk.eagle:package:8078634/1"/>
-<part name="SCT013_100A_PIN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
+<part name="M" library="con-molex" deviceset="22-23-2041" device=""/>
+<part name="49E_PIN" library="con-molex" deviceset="22-23-2031" device=""/>
+<part name="SCT013_100A_PIN" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="U2" library="LM358PE3" deviceset="LM358PE3" device=""/>
-<part name="VCCRB" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/2-H" device="" package3d_urn="urn:adsk.eagle:package:9901/1"/>
-<part name="REG" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X2" device="" package3d_urn="urn:adsk.eagle:package:22455/2"/>
-<part name="12V" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
-<part name="SCR40_2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
+<part name="VCCRB" library="con-ptr500" deviceset="AK500/2-H" device=""/>
+<part name="REG" library="pinhead" deviceset="PINHD-2X2" device=""/>
+<part name="12V" library="con-molex" deviceset="22-23-2021" device=""/>
+<part name="SCR40_2" library="con-molex" deviceset="22-23-2021" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1561,115 +1465,115 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <instance part="U1" gate="G$0" x="63.5" y="223.52" smashed="yes" rot="MR0">
 <attribute name="NAME" x="63.5" y="220.98" size="2.54" layer="95" rot="MR0" align="top-left"/>
 </instance>
-<instance part="VCC" gate="-1" x="-38.1" y="160.02" smashed="yes" grouprefs="VCC_12V">
+<instance part="VCC" gate="-1" x="-38.1" y="160.02" smashed="yes">
 <attribute name="NAME" x="-39.37" y="160.909" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="VCC" gate="-2" x="-38.1" y="154.94" smashed="yes" grouprefs="VCC_12V">
+<instance part="VCC" gate="-2" x="-38.1" y="154.94" smashed="yes">
 <attribute name="NAME" x="-39.37" y="155.829" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-41.91" y="151.257" size="1.778" layer="96"/>
 </instance>
-<instance part="DHT11_PIN" gate="-1" x="147.32" y="119.38" smashed="yes" grouprefs="DHT11">
-<attribute name="NAME" x="149.86" y="118.618" size="1.524" layer="95"/>
+<instance part="DHT11_PIN" gate="-1" x="144.78" y="116.84" smashed="yes">
+<attribute name="NAME" x="147.32" y="116.078" size="1.524" layer="95"/>
 </instance>
-<instance part="DHT11_PIN" gate="-2" x="147.32" y="116.84" smashed="yes" grouprefs="DHT11">
-<attribute name="NAME" x="149.86" y="116.078" size="1.524" layer="95"/>
+<instance part="DHT11_PIN" gate="-2" x="144.78" y="114.3" smashed="yes">
+<attribute name="NAME" x="147.32" y="113.538" size="1.524" layer="95"/>
 </instance>
-<instance part="DHT11_PIN" gate="-3" x="147.32" y="114.3" smashed="yes" grouprefs="DHT11">
-<attribute name="NAME" x="149.86" y="113.538" size="1.524" layer="95"/>
+<instance part="DHT11_PIN" gate="-3" x="144.78" y="111.76" smashed="yes">
+<attribute name="NAME" x="147.32" y="110.998" size="1.524" layer="95"/>
 </instance>
-<instance part="SCT013_20A_PIN" gate="-1" x="236.22" y="172.72" smashed="yes" grouprefs="SCT013_20A">
+<instance part="SCT013_20A_PIN" gate="-1" x="236.22" y="172.72" smashed="yes">
 <attribute name="NAME" x="238.76" y="171.958" size="1.524" layer="95"/>
 </instance>
-<instance part="SCT013_20A_PIN" gate="-2" x="236.22" y="170.18" smashed="yes" grouprefs="SCT013_20A">
+<instance part="SCT013_20A_PIN" gate="-2" x="236.22" y="170.18" smashed="yes">
 <attribute name="NAME" x="238.76" y="169.418" size="1.524" layer="95"/>
 </instance>
-<instance part="SCR40_1" gate="-1" x="185.42" y="121.92" smashed="yes" grouprefs="SCR_2">
+<instance part="SCR40_1" gate="-1" x="185.42" y="121.92" smashed="yes">
 <attribute name="NAME" x="187.96" y="121.158" size="1.524" layer="95"/>
 </instance>
-<instance part="SCR40_1" gate="-2" x="185.42" y="119.38" smashed="yes" grouprefs="SCR_2">
+<instance part="SCR40_1" gate="-2" x="185.42" y="119.38" smashed="yes">
 <attribute name="NAME" x="187.96" y="118.618" size="1.524" layer="95"/>
 </instance>
-<instance part="BMP_PIN" gate="-1" x="55.88" y="157.48" smashed="yes" rot="MR0" grouprefs="BMP180">
+<instance part="BMP_PIN" gate="-1" x="55.88" y="157.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="53.34" y="156.718" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="BMP_PIN" gate="-2" x="55.88" y="154.94" smashed="yes" rot="MR0" grouprefs="BMP180">
+<instance part="BMP_PIN" gate="-2" x="55.88" y="154.94" smashed="yes" rot="MR0">
 <attribute name="NAME" x="53.34" y="154.178" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="BMP_PIN" gate="-3" x="55.88" y="152.4" smashed="yes" rot="MR0" grouprefs="BMP180">
+<instance part="BMP_PIN" gate="-3" x="55.88" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="53.34" y="151.638" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="BMP_PIN" gate="-4" x="55.88" y="149.86" smashed="yes" rot="MR0" grouprefs="BMP180">
+<instance part="BMP_PIN" gate="-4" x="55.88" y="149.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="53.34" y="149.098" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="LM35_PIN" gate="-1" x="165.1" y="226.06" smashed="yes" grouprefs="LM35">
-<attribute name="NAME" x="167.64" y="225.298" size="1.524" layer="95"/>
+<instance part="LM35_PIN" gate="-1" x="165.1" y="218.44" smashed="yes">
+<attribute name="NAME" x="167.64" y="217.678" size="1.524" layer="95"/>
 </instance>
-<instance part="LM35_PIN" gate="-2" x="165.1" y="223.52" smashed="yes" grouprefs="LM35">
-<attribute name="NAME" x="167.64" y="222.758" size="1.524" layer="95"/>
+<instance part="LM35_PIN" gate="-2" x="165.1" y="215.9" smashed="yes">
+<attribute name="NAME" x="167.64" y="215.138" size="1.524" layer="95"/>
 </instance>
-<instance part="LM35_PIN" gate="-3" x="165.1" y="220.98" smashed="yes" grouprefs="LM35">
-<attribute name="NAME" x="167.64" y="220.218" size="1.524" layer="95"/>
+<instance part="LM35_PIN" gate="-3" x="165.1" y="213.36" smashed="yes">
+<attribute name="NAME" x="167.64" y="212.598" size="1.524" layer="95"/>
 </instance>
-<instance part="RASPBERRY" gate="A" x="101.6" y="139.7" smashed="yes" grouprefs="GPIO_RASPBERRY">
+<instance part="RASPBERRY" gate="A" x="101.6" y="139.7" smashed="yes">
 <attribute name="NAME" x="92.71" y="165.735" size="1.778" layer="95"/>
 <attribute name="VALUE" x="95.25" y="109.22" size="1.778" layer="96"/>
 </instance>
 <instance part="A4988" gate="G$1" x="50.8" y="119.38" smashed="yes" rot="MR0">
 <attribute name="NAME" x="63.5" y="138.43" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="M" gate="-1" x="15.24" y="127" smashed="yes" rot="MR0" grouprefs="STEP_MOTOR">
+<instance part="M" gate="-1" x="15.24" y="127" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.7" y="126.238" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="M" gate="-2" x="15.24" y="124.46" smashed="yes" rot="MR0" grouprefs="STEP_MOTOR">
+<instance part="M" gate="-2" x="15.24" y="124.46" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.7" y="123.698" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="M" gate="-3" x="15.24" y="121.92" smashed="yes" rot="MR0" grouprefs="STEP_MOTOR">
+<instance part="M" gate="-3" x="15.24" y="121.92" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.7" y="121.158" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="M" gate="-4" x="15.24" y="119.38" smashed="yes" rot="MR0" grouprefs="STEP_MOTOR">
+<instance part="M" gate="-4" x="15.24" y="119.38" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.7" y="118.618" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="49E_PIN" gate="-1" x="165.1" y="208.28" smashed="yes" grouprefs="49E">
+<instance part="49E_PIN" gate="-1" x="165.1" y="208.28" smashed="yes">
 <attribute name="NAME" x="167.64" y="207.518" size="1.524" layer="95"/>
 </instance>
-<instance part="49E_PIN" gate="-2" x="165.1" y="205.74" smashed="yes" grouprefs="49E">
+<instance part="49E_PIN" gate="-2" x="165.1" y="205.74" smashed="yes">
 <attribute name="NAME" x="167.64" y="204.978" size="1.524" layer="95"/>
 </instance>
-<instance part="49E_PIN" gate="-3" x="165.1" y="203.2" smashed="yes" grouprefs="49E">
+<instance part="49E_PIN" gate="-3" x="165.1" y="203.2" smashed="yes">
 <attribute name="NAME" x="167.64" y="202.438" size="1.524" layer="95"/>
 </instance>
-<instance part="SCT013_100A_PIN" gate="-1" x="236.22" y="190.5" smashed="yes" grouprefs="SCT013_100A">
+<instance part="SCT013_100A_PIN" gate="-1" x="236.22" y="190.5" smashed="yes">
 <attribute name="NAME" x="238.76" y="189.738" size="1.524" layer="95"/>
 </instance>
-<instance part="SCT013_100A_PIN" gate="-2" x="236.22" y="187.96" smashed="yes" grouprefs="SCT013_100A">
+<instance part="SCT013_100A_PIN" gate="-2" x="236.22" y="187.96" smashed="yes">
 <attribute name="NAME" x="238.76" y="187.198" size="1.524" layer="95"/>
 </instance>
 <instance part="U2" gate="G$1" x="190.5" y="180.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="203.2" y="194.04" size="2.0828" layer="95" ratio="10" rot="SMR0"/>
 <attribute name="VALUE" x="203.2" y="163.64" size="2.0828" layer="96" ratio="10" rot="SMR0"/>
 </instance>
-<instance part="VCCRB" gate="-1" x="12.7" y="190.5" smashed="yes" grouprefs="VCC_RB">
+<instance part="VCCRB" gate="-1" x="12.7" y="190.5" smashed="yes">
 <attribute name="NAME" x="11.43" y="191.389" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="VCCRB" gate="-2" x="12.7" y="185.42" smashed="yes" grouprefs="VCC_RB">
+<instance part="VCCRB" gate="-2" x="12.7" y="185.42" smashed="yes">
 <attribute name="NAME" x="11.43" y="186.309" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="8.89" y="181.737" size="1.778" layer="96"/>
 </instance>
-<instance part="REG" gate="A" x="5.08" y="157.48" smashed="yes" grouprefs="REGULADOR_5V">
+<instance part="REG" gate="A" x="5.08" y="157.48" smashed="yes">
 <attribute name="NAME" x="-3.81" y="163.195" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-3.81" y="152.4" size="1.778" layer="96"/>
 </instance>
-<instance part="12V" gate="-1" x="-20.32" y="172.72" smashed="yes" rot="R90" grouprefs="SW_12V">
+<instance part="12V" gate="-1" x="-20.32" y="172.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="-19.558" y="175.26" size="1.524" layer="95" rot="R90"/>
 </instance>
-<instance part="12V" gate="-2" x="-17.78" y="172.72" smashed="yes" rot="R90" grouprefs="SW_12V">
+<instance part="12V" gate="-2" x="-17.78" y="172.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="-17.018" y="175.26" size="1.524" layer="95" rot="R90"/>
 </instance>
-<instance part="SCR40_2" gate="-1" x="185.42" y="137.16" smashed="yes" grouprefs="SCR_1">
-<attribute name="NAME" x="187.96" y="136.398" size="1.524" layer="95"/>
+<instance part="SCR40_2" gate="-1" x="185.42" y="132.08" smashed="yes">
+<attribute name="NAME" x="187.96" y="131.318" size="1.524" layer="95"/>
 </instance>
-<instance part="SCR40_2" gate="-2" x="185.42" y="134.62" smashed="yes" grouprefs="SCR_1">
-<attribute name="NAME" x="187.96" y="133.858" size="1.524" layer="95"/>
+<instance part="SCR40_2" gate="-2" x="185.42" y="129.54" smashed="yes">
+<attribute name="NAME" x="187.96" y="128.778" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -1678,8 +1582,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="1"/>
-<label x="86.36" y="162.56" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
-<wire x1="99.06" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91" grouprefs="GPIO_RASPBERRY"/>
+<label x="86.36" y="162.56" size="1.778" layer="95"/>
+<wire x1="99.06" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$0" pin="VREF"/>
 <wire x1="68.58" y1="180.34" x2="81.28" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$0" pin="VDD"/>
@@ -1697,8 +1601,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="SDA_I2C" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="3"/>
-<wire x1="99.06" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91" grouprefs="GPIO_RASPBERRY"/>
-<label x="83.82" y="160.02" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
+<wire x1="99.06" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
+<label x="83.82" y="160.02" size="1.778" layer="95"/>
 <pinref part="BMP_PIN" gate="-4" pin="S"/>
 <wire x1="58.42" y1="149.86" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="149.86" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
@@ -1707,106 +1611,110 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="SCL_I2C" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="5"/>
-<label x="83.82" y="157.48" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
-<wire x1="99.06" y1="157.48" x2="78.74" y2="157.48" width="0.1524" layer="91" grouprefs="GPIO_RASPBERRY"/>
+<label x="83.82" y="157.48" size="1.778" layer="95"/>
+<wire x1="99.06" y1="157.48" x2="78.74" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="BMP_PIN" gate="-3" pin="S"/>
 <wire x1="58.42" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="152.4" x2="78.74" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="39"/>
-<wire x1="99.06" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91" grouprefs="GPIO_RASPBERRY"/>
-<label x="86.36" y="114.3" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
-<pinref part="A4988" gate="G$1" pin="GND"/>
-<wire x1="33.02" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="104.14" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="99.06" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="DHT11_PIN" gate="-3" pin="S"/>
-<wire x1="144.78" y1="114.3" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
-<junction x="78.74" y="99.06"/>
-<wire x1="144.78" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
-<junction x="144.78" y="99.06"/>
-<pinref part="SCR40_2" gate="-2" pin="S"/>
-<wire x1="182.88" y1="134.62" x2="172.72" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="134.62" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="SCR40_1" gate="-2" pin="S"/>
-<wire x1="172.72" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="99.06" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
-<junction x="172.72" y="119.38"/>
+<wire x1="99.06" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<label x="86.36" y="114.3" size="1.778" layer="95"/>
+<label x="78.74" y="114.3" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="6"/>
-<label x="116.84" y="157.48" size="1.778" layer="95" align="bottom-right" grouprefs="GPIO_RASPBERRY"/>
-<wire x1="106.68" y1="157.48" x2="149.86" y2="157.48" width="0.1524" layer="91"/>
+<label x="111.76" y="157.48" size="1.778" layer="95"/>
+<wire x1="116.84" y1="157.48" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
+<label x="116.84" y="157.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="BMP_PIN" gate="-2" pin="S"/>
+<wire x1="58.42" y1="154.94" x2="60.96" y2="154.94" width="0.1524" layer="91"/>
+<label x="60.96" y="154.94" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$0" pin="DGND"/>
+<wire x1="38.1" y1="180.34" x2="40.64" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="175.26" x2="38.1" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$0" pin="AGND"/>
+<wire x1="40.64" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
+<label x="38.1" y="180.34" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="VCCRB" gate="-2" pin="KL"/>
+<wire x1="20.32" y1="185.42" x2="17.78" y2="185.42" width="0.1524" layer="91"/>
+<label x="20.32" y="185.42" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="REG" gate="A" pin="4"/>
+<wire x1="7.62" y1="157.48" x2="15.24" y2="157.48" width="0.1524" layer="91"/>
+<label x="15.24" y="157.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="A4988" gate="G$1" pin="GND"/>
+<wire x1="33.02" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
+<label x="27.94" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="DHT11_PIN" gate="-3" pin="S"/>
+<wire x1="142.24" y1="111.76" x2="139.7" y2="111.76" width="0.1524" layer="91"/>
+<label x="139.7" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SCR40_2" gate="-2" pin="S"/>
+<wire x1="182.88" y1="129.54" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
+<label x="172.72" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SCR40_1" gate="-2" pin="S"/>
+<wire x1="172.72" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
+<label x="172.72" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
 <pinref part="LM35_PIN" gate="-3" pin="S"/>
-<wire x1="162.56" y1="220.98" x2="149.86" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="220.98" x2="149.86" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="213.36" x2="149.86" y2="213.36" width="0.1524" layer="91"/>
+<label x="149.86" y="213.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
 <pinref part="49E_PIN" gate="-1" pin="S"/>
-<wire x1="149.86" y1="208.28" x2="149.86" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="170.18" x2="149.86" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="208.28" x2="149.86" y2="208.28" width="0.1524" layer="91"/>
-<junction x="149.86" y="208.28"/>
+<label x="149.86" y="208.28" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="172.72" y1="170.18" x2="149.86" y2="170.18" width="0.1524" layer="91"/>
-<junction x="149.86" y="170.18"/>
-<pinref part="SCT013_100A_PIN" gate="-2" pin="S"/>
-<wire x1="233.68" y1="187.96" x2="218.44" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="187.96" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="157.48" x2="149.86" y2="157.48" width="0.1524" layer="91"/>
-<junction x="149.86" y="157.48"/>
+<wire x1="172.72" y1="170.18" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
+<label x="172.72" y="172.72" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
 <pinref part="SCT013_20A_PIN" gate="-2" pin="S"/>
-<wire x1="233.68" y1="170.18" x2="233.68" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="157.48" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
-<junction x="218.44" y="157.48"/>
+<wire x1="233.68" y1="170.18" x2="228.6" y2="170.18" width="0.1524" layer="91"/>
+<label x="228.6" y="170.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SCT013_100A_PIN" gate="-2" pin="S"/>
+<wire x1="233.68" y1="187.96" x2="228.6" y2="187.96" width="0.1524" layer="91"/>
+<label x="228.6" y="187.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="REG" gate="A" pin="3"/>
+<wire x1="-7.62" y1="157.48" x2="0" y2="157.48" width="0.1524" layer="91"/>
+<label x="-7.62" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="VCC" gate="-2" pin="KL"/>
-<wire x1="-33.02" y1="154.94" x2="-7.62" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="154.94" x2="-7.62" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="REG" gate="A" pin="3"/>
-<wire x1="-7.62" y1="157.48" x2="0" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="RASPBERRY" gate="A" pin="25"/>
-<label x="86.36" y="132.08" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
-<wire x1="99.06" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="132.08" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="144.78" x2="38.1" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$0" pin="DGND"/>
-<wire x1="38.1" y1="144.78" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="170.18" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="175.26" x2="38.1" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="180.34" x2="40.64" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$0" pin="AGND"/>
-<wire x1="40.64" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
-<junction x="38.1" y="175.26"/>
-<pinref part="BMP_PIN" gate="-2" pin="S"/>
-<wire x1="58.42" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="154.94" x2="63.5" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="170.18" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
-<junction x="38.1" y="170.18"/>
-<pinref part="REG" gate="A" pin="4"/>
-<wire x1="7.62" y1="157.48" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="VCCRB" gate="-2" pin="KL"/>
-<wire x1="33.02" y1="157.48" x2="33.02" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="185.42" x2="17.78" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="157.48" x2="33.02" y2="144.78" width="0.1524" layer="91"/>
-<junction x="33.02" y="157.48"/>
-<wire x1="33.02" y1="144.78" x2="38.1" y2="144.78" width="0.1524" layer="91"/>
-<junction x="38.1" y="144.78"/>
-<wire x1="-7.62" y1="154.94" x2="-7.62" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="144.78" x2="33.02" y2="144.78" width="0.1524" layer="91"/>
-<junction x="-7.62" y="154.94"/>
-<junction x="33.02" y="144.78"/>
+<wire x1="-33.02" y1="154.94" x2="-30.48" y2="154.94" width="0.1524" layer="91"/>
+<label x="-30.48" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPMOS1" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="19"/>
-<label x="83.82" y="139.7" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
-<wire x1="99.06" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91" grouprefs="GPIO_RASPBERRY"/>
+<label x="83.82" y="139.7" size="1.778" layer="95"/>
+<wire x1="99.06" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$0" pin="DIN"/>
 <wire x1="68.58" y1="215.9" x2="73.66" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="215.9" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
@@ -1815,8 +1723,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="SPMIS0" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="21"/>
-<label x="83.82" y="137.16" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
-<wire x1="99.06" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91" grouprefs="GPIO_RASPBERRY"/>
+<label x="83.82" y="137.16" size="1.778" layer="95"/>
+<wire x1="99.06" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="137.16" x2="71.12" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="220.98" x2="38.1" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="220.98" x2="38.1" y2="215.9" width="0.1524" layer="91"/>
@@ -1827,8 +1735,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="SPSCLK" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="23"/>
-<label x="83.82" y="134.62" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
-<wire x1="99.06" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91" grouprefs="GPIO_RASPBERRY"/>
+<label x="83.82" y="134.62" size="1.778" layer="95"/>
+<wire x1="99.06" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$0" pin="CLK"/>
 <wire x1="68.58" y1="185.42" x2="76.2" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="185.42" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
@@ -1837,8 +1745,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="SPICE0" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="24"/>
-<label x="119.38" y="134.62" size="1.778" layer="95" align="bottom-right" grouprefs="GPIO_RASPBERRY"/>
-<wire x1="129.54" y1="134.62" x2="106.68" y2="134.62" width="0.1524" layer="91" grouprefs="GPIO_RASPBERRY"/>
+<label x="119.38" y="134.62" size="1.778" layer="95"/>
+<wire x1="129.54" y1="134.62" x2="106.68" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$0" pin="!CS!/SHDN"/>
 <wire x1="68.58" y1="187.96" x2="129.54" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="187.96" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
@@ -1847,7 +1755,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="GPIO5" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="29"/>
-<label x="83.82" y="127" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
+<label x="83.82" y="127" size="1.778" layer="95"/>
 <pinref part="A4988" gate="G$1" pin="!ENABLE"/>
 <wire x1="68.58" y1="127" x2="99.06" y2="127" width="0.1524" layer="91"/>
 </segment>
@@ -1855,7 +1763,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="GPIO6" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="31"/>
-<label x="83.82" y="124.46" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
+<label x="83.82" y="124.46" size="1.778" layer="95"/>
 <pinref part="A4988" gate="G$1" pin="!RESET"/>
 <wire x1="68.58" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
 </segment>
@@ -1863,7 +1771,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="GPIO13" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="33"/>
-<label x="83.82" y="121.92" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
+<label x="83.82" y="121.92" size="1.778" layer="95"/>
 <pinref part="A4988" gate="G$1" pin="!SLEEP"/>
 <wire x1="68.58" y1="121.92" x2="99.06" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -1871,7 +1779,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="GPIO19" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="35"/>
-<label x="83.82" y="119.38" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
+<label x="83.82" y="119.38" size="1.778" layer="95"/>
 <pinref part="A4988" gate="G$1" pin="STEP"/>
 <wire x1="68.58" y1="119.38" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
 </segment>
@@ -1879,17 +1787,17 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="GPIO16" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="36"/>
-<label x="119.38" y="119.38" size="1.778" layer="95" align="bottom-right" grouprefs="GPIO_RASPBERRY"/>
-<wire x1="106.68" y1="119.38" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="119.38" x2="132.08" y2="137.16" width="0.1524" layer="91"/>
+<label x="111.76" y="119.38" size="1.778" layer="95"/>
+<wire x1="106.68" y1="119.38" x2="127" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="SCR40_2" gate="-1" pin="S"/>
-<wire x1="132.08" y1="137.16" x2="182.88" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="132.08" x2="127" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="127" y1="132.08" x2="127" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO26" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="37"/>
-<label x="83.82" y="116.84" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
+<label x="83.82" y="116.84" size="1.778" layer="95"/>
 <pinref part="A4988" gate="G$1" pin="DIR"/>
 <wire x1="68.58" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
 </segment>
@@ -1897,44 +1805,52 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <net name="GPIO20" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="38"/>
-<wire x1="106.68" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91" grouprefs="GPIO_RASPBERRY"/>
-<label x="119.38" y="116.84" size="1.778" layer="95" align="bottom-right" grouprefs="GPIO_RASPBERRY"/>
-<wire x1="124.46" y1="116.84" x2="124.46" y2="127" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="127" x2="175.26" y2="127" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="127" x2="175.26" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<label x="111.76" y="116.84" size="1.778" layer="95"/>
 <pinref part="SCR40_1" gate="-1" pin="S"/>
-<wire x1="175.26" y1="121.92" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="121.92" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO21" class="0">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="40"/>
-<wire x1="106.68" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91" grouprefs="GPIO_RASPBERRY"/>
-<label x="119.38" y="114.3" size="1.778" layer="95" align="bottom-right" grouprefs="GPIO_RASPBERRY"/>
+<wire x1="106.68" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
+<label x="111.76" y="114.3" size="1.778" layer="95"/>
 <pinref part="DHT11_PIN" gate="-2" pin="S"/>
-<wire x1="144.78" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="127" y1="116.84" x2="127" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="1">
 <segment>
 <pinref part="RASPBERRY" gate="A" pin="2"/>
-<label x="111.76" y="162.56" size="1.778" layer="95" grouprefs="GPIO_RASPBERRY"/>
+<label x="111.76" y="162.56" size="1.778" layer="95"/>
+<wire x1="116.84" y1="162.56" x2="106.68" y2="162.56" width="0.1524" layer="91"/>
+<label x="116.84" y="162.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="A4988" gate="G$1" pin="VDD"/>
+<wire x1="33.02" y1="134.62" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
+<label x="27.94" y="134.62" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
 <pinref part="DHT11_PIN" gate="-1" pin="S"/>
-<wire x1="144.78" y1="119.38" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="162.56" x2="106.68" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="116.84" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
+<label x="139.7" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
 <pinref part="LM35_PIN" gate="-1" pin="S"/>
-<wire x1="162.56" y1="226.06" x2="144.78" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="226.06" x2="144.78" y2="205.74" width="0.1524" layer="91"/>
-<junction x="144.78" y="162.56"/>
+<wire x1="162.56" y1="218.44" x2="157.48" y2="218.44" width="0.1524" layer="91"/>
+<label x="157.48" y="218.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
 <pinref part="49E_PIN" gate="-2" pin="S"/>
-<wire x1="144.78" y1="205.74" x2="144.78" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="190.5" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="205.74" x2="144.78" y2="205.74" width="0.1524" layer="91"/>
-<junction x="144.78" y="205.74"/>
+<wire x1="162.56" y1="205.74" x2="157.48" y2="205.74" width="0.1524" layer="91"/>
+<label x="157.48" y="205.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
-<wire x1="172.72" y1="190.5" x2="144.78" y2="190.5" width="0.1524" layer="91"/>
-<junction x="144.78" y="190.5"/>
+<wire x1="172.72" y1="190.5" x2="167.64" y2="190.5" width="0.1524" layer="91"/>
+<label x="167.64" y="190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="1B" class="0">
@@ -1975,7 +1891,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <label x="27.94" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="12+" class="0">
+<net name="12+" class="1">
 <segment>
 <pinref part="VCC" gate="-1" pin="KL"/>
 <wire x1="-33.02" y1="160.02" x2="-20.32" y2="160.02" width="0.1524" layer="91"/>
@@ -1984,43 +1900,40 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <label x="-27.94" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SW12" class="0">
+<net name="SW12" class="1">
 <segment>
 <pinref part="12V" gate="-2" pin="S"/>
 <wire x1="-17.78" y1="170.18" x2="-17.78" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="REG" gate="A" pin="1"/>
 <wire x1="-17.78" y1="160.02" x2="0" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="A4988" gate="G$1" pin="VMOT"/>
-<wire x1="33.02" y1="132.08" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="132.08" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="149.86" x2="-17.78" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="149.86" x2="-17.78" y2="160.02" width="0.1524" layer="91"/>
-<junction x="-17.78" y="160.02"/>
 <label x="-12.7" y="160.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="A4988" gate="G$1" pin="VMOT"/>
+<wire x1="33.02" y1="132.08" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
+<label x="25.4" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
-<net name="IN5+" class="0">
+<net name="IN5+" class="1">
+<segment>
+<pinref part="VCCRB" gate="-1" pin="KL"/>
+<wire x1="20.32" y1="190.5" x2="17.78" y2="190.5" width="0.1524" layer="91"/>
+<label x="20.32" y="190.5" size="1.778" layer="95" xref="yes"/>
+</segment>
 <segment>
 <pinref part="REG" gate="A" pin="2"/>
-<wire x1="7.62" y1="160.02" x2="27.94" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="160.02" x2="27.94" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="VCCRB" gate="-1" pin="KL"/>
-<wire x1="27.94" y1="190.5" x2="17.78" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="A4988" gate="G$1" pin="VDD"/>
-<wire x1="33.02" y1="134.62" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="134.62" x2="27.94" y2="160.02" width="0.1524" layer="91"/>
-<junction x="27.94" y="160.02"/>
-<label x="20.32" y="160.02" size="1.778" layer="95"/>
+<wire x1="7.62" y1="160.02" x2="15.24" y2="160.02" width="0.1524" layer="91"/>
+<label x="15.24" y="160.02" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="V_LM35" class="0">
 <segment>
 <pinref part="U1" gate="G$0" pin="CH0"/>
 <wire x1="68.58" y1="210.82" x2="119.38" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="210.82" x2="119.38" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="LM35_PIN" gate="-2" pin="S"/>
-<wire x1="119.38" y1="223.52" x2="162.56" y2="223.52" width="0.1524" layer="91"/>
 <label x="78.74" y="210.82" size="1.778" layer="95"/>
+<pinref part="LM35_PIN" gate="-2" pin="S"/>
+<wire x1="162.56" y1="215.9" x2="119.38" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="215.9" x2="119.38" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_49E" class="0">
@@ -2094,6 +2007,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,40.64,180.34,U1,DGND,GND,,,"/>
+<approved hash="104,1,40.64,175.26,U1,AGND,GND,,,"/>
+<approved hash="104,1,68.58,175.26,U1,VDD,3.3V,,,"/>
 <approved hash="202,1,68.58,195.58,U1,CH6,,,,"/>
 <approved hash="202,1,68.58,193.04,U1,CH7,,,,"/>
 <approved hash="202,1,68.58,200.66,U1,CH4,,,,"/>
@@ -2101,34 +2017,13 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <approved hash="202,1,68.58,111.76,A4988,MS1,,,,"/>
 <approved hash="202,1,68.58,109.22,A4988,MS2,,,,"/>
 <approved hash="202,1,68.58,106.68,A4988,MS3,,,,"/>
+<approved hash="104,1,33.02,134.62,A4988,VDD,5V,,,"/>
+<approved hash="104,1,33.02,132.08,A4988,VMOT,SW12,,,"/>
+<approved hash="104,1,172.72,190.5,U2,VCC,5V,,,"/>
+<approved hash="113,1,101.558,139.831,RASPBERRY,,,,,"/>
+<approved hash="113,1,11.4826,190.5,VCCRB,,,,,"/>
+<approved hash="113,1,3.76767,160.151,REG,,,,,"/>
 </errors>
 </schematic>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-<note version="9.5" severity="warning">
-Since Version 9.5, EAGLE supports persistent groups with
-schematics, and board files. Those persistent groups
-will not be understood (or retained) with this version.
-</note>
-<note version="9.0" severity="warning">
-Since Version 9.0, EAGLE supports the align property for labels. 
-Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
-for full support of labels. 
-</note>
-</compatibility>
 </eagle>
