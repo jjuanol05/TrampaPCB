@@ -1933,8 +1933,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <wire x1="-33.02" y1="149.86" x2="-30.48" y2="149.86" width="0.1524" layer="91"/>
 <label x="-30.48" y="149.86" size="1.778" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="SW12" class="1">
 <segment>
 <pinref part="A4988" gate="G$1" pin="VMOT"/>
 <wire x1="38.1" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
@@ -2081,22 +2079,13 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,40.64,180.34,U1,DGND,GND,,,"/>
-<approved hash="104,1,40.64,175.26,U1,AGND,GND,,,"/>
-<approved hash="104,1,68.58,175.26,U1,VDD,3.3V,,,"/>
-<approved hash="202,1,68.58,195.58,U1,CH6,,,,"/>
-<approved hash="202,1,68.58,193.04,U1,CH7,,,,"/>
-<approved hash="202,1,68.58,200.66,U1,CH4,,,,"/>
-<approved hash="202,1,68.58,198.12,U1,CH5,,,,"/>
-<approved hash="202,1,68.58,111.76,A4988,MS1,,,,"/>
-<approved hash="202,1,68.58,109.22,A4988,MS2,,,,"/>
-<approved hash="202,1,68.58,106.68,A4988,MS3,,,,"/>
-<approved hash="104,1,33.02,134.62,A4988,VDD,5V,,,"/>
-<approved hash="104,1,33.02,132.08,A4988,VMOT,SW12,,,"/>
-<approved hash="104,1,172.72,190.5,U2,VCC,5V,,,"/>
-<approved hash="113,1,101.558,139.831,RASPBERRY,,,,,"/>
-<approved hash="113,1,11.4826,190.5,VCCRB,,,,,"/>
-<approved hash="113,1,3.76767,160.151,REG,,,,,"/>
+<approved hash="202,1,68.58,190.5,ADC,CH6,,,,"/>
+<approved hash="202,1,68.58,187.96,ADC,CH7,,,,"/>
+<approved hash="202,1,68.58,195.58,ADC,CH4,,,,"/>
+<approved hash="202,1,68.58,193.04,ADC,CH5,,,,"/>
+<approved hash="202,1,73.66,43.18,A4988,MS1,,,,"/>
+<approved hash="202,1,73.66,40.64,A4988,MS2,,,,"/>
+<approved hash="202,1,73.66,38.1,A4988,MS3,,,,"/>
 </errors>
 </schematic>
 </drawing>
