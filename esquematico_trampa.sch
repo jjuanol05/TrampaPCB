@@ -1632,11 +1632,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <label x="43.18" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RASPBERRY" gate="A" pin="6"/>
-<wire x1="66.04" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
-<label x="66.04" y="134.62" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="BMP" gate="-2" pin="S"/>
 <wire x1="162.56" y1="195.58" x2="165.1" y2="195.58" width="0.1524" layer="91"/>
 <label x="165.1" y="195.58" size="1.778" layer="95" xref="yes"/>
@@ -1720,6 +1715,11 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <pinref part="RASPBERRY" gate="A" pin="34"/>
 <wire x1="58.42" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
 <label x="66.04" y="99.06" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RASPBERRY" gate="A" pin="25"/>
+<wire x1="50.8" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
+<label x="30.48" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPMOS1" class="0">
@@ -2079,6 +2079,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,40.64,175.26,ADC,DGND,GND,,,"/>
+<approved hash="104,1,40.64,170.18,ADC,AGND,GND,,,"/>
+<approved hash="104,1,68.58,170.18,ADC,VDD,3.3V,,,"/>
 <approved hash="202,1,68.58,190.5,ADC,CH6,,,,"/>
 <approved hash="202,1,68.58,187.96,ADC,CH7,,,,"/>
 <approved hash="202,1,68.58,195.58,ADC,CH4,,,,"/>
@@ -2086,6 +2089,12 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <approved hash="202,1,73.66,43.18,A4988,MS1,,,,"/>
 <approved hash="202,1,73.66,40.64,A4988,MS2,,,,"/>
 <approved hash="202,1,73.66,38.1,A4988,MS3,,,,"/>
+<approved hash="104,1,38.1,66.04,A4988,VDD,5V,,,"/>
+<approved hash="104,1,38.1,63.5,A4988,VMOT,IN12+,,,"/>
+<approved hash="104,1,38.1,261.62,OPAM,VCC,5V,,,"/>
+<approved hash="113,1,53.2977,116.971,RASPBERRY,,,,,"/>
+<approved hash="113,1,-36.7774,116.84,VCCRB,,,,,"/>
+<approved hash="113,1,-31.7923,134.751,REGULADOR,,,,,"/>
 </errors>
 </schematic>
 </drawing>
