@@ -1,0 +1,140 @@
+Pinlist
+
+Exported from esquematico_trampa.brd at 21/11/2022 11:09 p. m.
+
+EAGLE Version 8.0.1 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Part     Pad      Net
+
+49E      1        GND
+         2        5V
+         3        V_49E
+
+A4988    1        GPIO5
+         2                 *** unconnected ***
+         3                 *** unconnected ***
+         4                 *** unconnected ***
+         5        GPIO6
+         6        GPIO13
+         7        GPIO19
+         8        GPIO26
+         9        GND
+         10       5V
+         11       1B
+         12       1A
+         13       2A
+         14       2B
+         15       GND
+         16       IN12+
+
+ADC      1        V_LM35
+         2        V_49E
+         3        V_SCT100
+         4        V_SCT20
+         5                 *** unconnected ***
+         6                 *** unconnected ***
+         7                 *** unconnected ***
+         8                 *** unconnected ***
+         9        GND
+         10       SPICE0
+         11       SPMOS1
+         12       SPMIS0
+         13       SPSCLK
+         14       GND
+         15       3.3V
+         16       3.3V
+
+BMP      1        3.3V
+         2        GND
+         3        SCL_I2C
+         4        SDA_I2C
+
+DHT11    1        5V
+         2        GPIO7
+         3        GND
+
+LM35     1        5V
+         2        V_LM35
+         3        GND
+
+MOTOR    1        1B
+         2        1A
+         3        2A
+         4        2B
+
+OPAM     1        V_SCT100
+         2        V_SCT100
+         3        OUT_SCT100
+         4        GND
+         5        OUT_SCT20
+         6        V_SCT20
+         7        V_SCT20
+         8        5V
+
+RASPBERRY 1        3.3V
+         2        5V
+         3        SDA_I2C
+         4                 *** unconnected ***
+         5        SCL_I2C
+         6                 *** unconnected ***
+         7                 *** unconnected ***
+         8                 *** unconnected ***
+         9                 *** unconnected ***
+         10                *** unconnected ***
+         11                *** unconnected ***
+         12                *** unconnected ***
+         13                *** unconnected ***
+         14                *** unconnected ***
+         15                *** unconnected ***
+         16                *** unconnected ***
+         17                *** unconnected ***
+         18                *** unconnected ***
+         19       SPMOS1
+         20                *** unconnected ***
+         21       SPMIS0
+         22                *** unconnected ***
+         23       SPSCLK
+         24       SPICE0
+         25       GND
+         26       GPIO7
+         27                *** unconnected ***
+         28                *** unconnected ***
+         29       GPIO5
+         30                *** unconnected ***
+         31       GPIO6
+         32                *** unconnected ***
+         33       GPIO13
+         34       GND
+         35       GPIO19
+         36                *** unconnected ***
+         37       GPIO26
+         38       GPIO20
+         39       GND
+         40       GPIO21
+
+REGULADOR 1        IN12+
+         2        OUT5+
+         3        GND
+         4        GND
+
+SCR_1    1        GPIO21
+         2        GND
+
+SCR_2    1        GPIO20
+         2        GND
+
+SCT20A   1        OUT_SCT20
+         2        GND
+
+SCT100A  1        OUT_SCT100
+         2        GND
+
+SWITCH   1        OUT12+
+         2        IN12+
+
+VCC      1        OUT12+
+         2        GND
+
+VCCRB    1        OUT5+
+         2        GND
+

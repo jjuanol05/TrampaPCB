@@ -1,0 +1,125 @@
+Netlist
+
+Exported from esquematico_trampa.brd at 21/11/2022 11:10 p. m.
+
+EAGLE Version 8.0.1 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Net        Part      Pad
+
+1A         A4988     12
+           MOTOR     2
+
+1B         A4988     11
+           MOTOR     1
+
+2A         A4988     13
+           MOTOR     3
+
+2B         A4988     14
+           MOTOR     4
+
+3.3V       ADC       15
+           ADC       16
+           BMP       1
+           RASPBERRY 1
+
+5V         49E       2
+           A4988     10
+           DHT11     1
+           LM35      1
+           OPAM      8
+           RASPBERRY 2
+
+GND        49E       1
+           A4988     15
+           A4988     9
+           ADC       14
+           ADC       9
+           BMP       2
+           DHT11     3
+           LM35      3
+           OPAM      4
+           RASPBERRY 25
+           RASPBERRY 34
+           RASPBERRY 39
+           REGULADOR 3
+           REGULADOR 4
+           SCR_1     2
+           SCR_2     2
+           SCT100A   2
+           SCT20A    2
+           VCC       2
+           VCCRB     2
+
+GPIO5      A4988     1
+           RASPBERRY 29
+
+GPIO6      A4988     5
+           RASPBERRY 31
+
+GPIO7      DHT11     2
+           RASPBERRY 26
+
+GPIO13     A4988     6
+           RASPBERRY 33
+
+GPIO19     A4988     7
+           RASPBERRY 35
+
+GPIO20     RASPBERRY 38
+           SCR_2     1
+
+GPIO21     RASPBERRY 40
+           SCR_1     1
+
+GPIO26     A4988     8
+           RASPBERRY 37
+
+IN12+      A4988     16
+           REGULADOR 1
+           SWITCH    2
+
+OUT5+      REGULADOR 2
+           VCCRB     1
+
+OUT12+     SWITCH    1
+           VCC       1
+
+OUT_SCT20  OPAM      5
+           SCT20A    1
+
+OUT_SCT100 OPAM      3
+           SCT100A   1
+
+SCL_I2C    BMP       3
+           RASPBERRY 5
+
+SDA_I2C    BMP       4
+           RASPBERRY 3
+
+SPICE0     ADC       10
+           RASPBERRY 24
+
+SPMIS0     ADC       12
+           RASPBERRY 21
+
+SPMOS1     ADC       11
+           RASPBERRY 19
+
+SPSCLK     ADC       13
+           RASPBERRY 23
+
+V_49E      49E       3
+           ADC       2
+
+V_LM35     ADC       1
+           LM35      2
+
+V_SCT20    ADC       4
+           OPAM      6
+           OPAM      7
+
+V_SCT100   ADC       3
+           OPAM      1
+           OPAM      2
+
